@@ -15,8 +15,9 @@ class String
   end
 
   def count_sentences
+    binding.pry
     sentences=self.split(".?!")
-     binding.pry
+     
     return sentences.count
    
 end
